@@ -132,7 +132,7 @@ function CustomToolbar() {
 
 export default function Players() {
   return (
-    <div style={{ height: '800px', width: '100%', overflow: 'hidden' }}>
+    <div style={{ height: '800px', width: '100%' }}>
       <DataGrid
         getRowId={(r) => r.Player}
         rows={playersData}
