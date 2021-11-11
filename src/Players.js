@@ -126,7 +126,7 @@ function CustomToolbar() {
       <h2 style={{ 'float': 'right', 'margin': '.3em 1em 0 auto', }}>
         NFL Rushing
       </h2>
-    </GridToolbarContainer >
+    </GridToolbarContainer>
   );
 }
 
