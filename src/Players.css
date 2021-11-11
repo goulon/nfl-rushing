@@ -1,0 +1,9 @@
+.table-header {
+  float: right;
+  margin: 0.3em 1em 0 auto;
+}
+
+.player-table {
+  height: 800px;
+  width: 100%;
+}

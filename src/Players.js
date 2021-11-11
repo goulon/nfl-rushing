@@ -4,6 +4,7 @@ import {
   GridToolbarContainer,
   gridClasses,
 } from '@mui/x-data-grid';
+import './Players.css';
 import playersData from './rushing.json';
 
 function getRushValue(value) {
@@ -123,7 +124,7 @@ function CustomToolbar() {
   return (
     <GridToolbarContainer className={gridClasses.toolbarContainer}>
       <GridToolbar />
-      <h2 style={{ 'float': 'right', 'margin': '.3em 1em 0 auto', }}>
+      <h2 className='table-header'>
         NFL Rushing
       </h2>
     </GridToolbarContainer>
@@ -132,7 +133,7 @@ function CustomToolbar() {
 
 export default function Players() {
   return (
-    <div style={{ height: '800px', width: '100%' }}>
+    <div className='player-table'>
       <DataGrid
         getRowId={(r) => r.Player}
         rows={playersData}
